@@ -1,0 +1,18 @@
+spring: 
+  profiles:
+    active:
+      -dev
+
+---
+spring:
+  profiles: dev
+  application: 
+    name: microservicecloud-config-ay7-dev
+
+---
+spring:
+  profiles: test 
+  application:
+    name: microservicecloud-config-ay7-text
+
+# 务必保存为UTF-8
